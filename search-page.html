@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="searchbox.css">
+    <title>Search Page</title>
+
+</head>
+<body>
+    <!-- title head -->
+    <section>
+        <div class="fluid-container">
+            <div class="text-end p-2 nav-color">
+                <div class="display-2 text-center fw-bolder iitg-color">
+                    IITGoshopy 
+                </div>
+                <a href="about-me.html">
+                    <span class="fw-bold text-light">
+                        <i class="bi bi-person"></i>
+                        About Me
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- search bar -->
+    <section>
+
+        <div class="container2">
+            
+            <div class="select-box">
+                <div class="options-container">
+                    
+                    <!-- smartphones -->
+                    <div class="option">
+                        <input type="radio" class="radio" id="smartphone01" name="category" />
+                        <label for="smartphone01">iPhone 9</label>
+                    </div>
+    
+                    <div class="option">
+                        <input type="radio" class="radio" id="smartphone02" name="category" />
+                        <label for="smartphone02">iPhone X</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="smartphone03" name="category" />
+                        <label for="smartphone03">Samsung Universe 9</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="smartphone04" name="category" />
+                        <label for="smartphone04">OPPO F19</label>
+                    </div>
+    
+                    <div class="option">
+                        <input type="radio" class="radio" id="smartphone05" name="category" />
+                        <label for="smartphone05">Huawei P30</label>
+                    </div>
+    
+                    <!-- laptops -->
+                    <div class="option">
+                        <input type="radio" class="radio" id="laptop06" name="category" />
+                        <label for="laptop06">MacBook Pro</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="laptop07" name="category" />
+                        <label for="laptop07">Samsung Galaxy Book</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="laptop08" name="category" />
+                        <label for="laptop08">Microsoft Surface Laptop 4</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="laptop09" name="category" />
+                        <label for="laptop09">Infinix INBOOK</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="laptop10" name="category" />
+                        <label for="laptop10">HP Pavilion 15-DK1056WM</label>
+                    </div>
+    
+                    <!-- fragrances -->
+                    <div class="option">
+                        <input type="radio" class="radio" id="fragrance11" name="category" />
+                        <label for="fragrance11">Perfume Oil</label>
+                    </div>
+    
+                    <div class="option">
+                        <input type="radio" class="radio" id="fragrance12" name="category" />
+                        <label for="fragrance12">Brown Perfume</label>
+                    </div>
+    
+                    <div class="option">
+                        <input type="radio" class="radio" id="fragrance13" name="category" />
+                        <label for="fragrance13">Fog Scent Xpressio Perfume</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="fragrance14" name="category" />
+                        <label for="fragrance14">Non-Alcoholic Concentrated Perfume Oil</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="fragrance15" name="category" />
+                        <label for="fragrance15">Eau De Perfume Spray</label>
+                    </div>
+    
+                    <!-- skincare -->
+                    <div class="option">
+                        <input type="radio" class="radio" id="skincare16" name="category" />
+                        <label for="skincare16">Hyaluronic Acid Serum</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="skincare17" name="category" />
+                        <label for="skincare17">Tree Oil 30ml</label>
+                    </div>
+    
+                    <div class="option">
+                        <input type="radio" class="radio" id="skincare18" name="category" />
+                        <label for="skincare18">Oil Free Moisturizer 100ml</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="skincare19" name="category" />
+                        <label for="skincare19">Skin Beauty Serum</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="skincare20" name="category" />
+                        <label for="skincare20">Freckle Treatment Cream- 15gm</label>
+                    </div>
+    
+                    <!-- groceries -->
+                    <div class="option">
+                        <input type="radio" class="radio" id="groceries21" name="category" />
+                        <label for="groceries21">Daal Masoor 500 grams</label>
+                    </div>
+    
+                    <div class="option">
+                        <input type="radio" class="radio" id="groceries22" name="category" />
+                        <label for="groceries22">Elbow Macaroni - 400 gm</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="groceries23" name="category" />
+                        <label for="groceries23">Orange Essence Food Flavour</label>
+                    </div>
+    
+                    <div class="option">
+                        <input type="radio" class="radio" id="groceries24" name="category" />
+                        <label for="groceries24">Cereals Muesli Fruit Nuts</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="groceries25" name="category" />
+                        <label for="groceries25">Gulab Powder 50 Gram</label>
+                    </div>
+    
+                    <!-- home decoration -->
+                    <div class="option">
+                        <input type="radio" class="radio" id="homedecoration26" name="category" />
+                        <label for="homedecoration26">Plant Hanger For Home</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="homedecoration27" name="category" />
+                        <label for="homedecoration27">Flying Wooden Bird</label>
+                    </div>
+    
+                    <div class="option">
+                        <input type="radio" class="radio" id="homedecoration28" name="category" />
+                        <label for="homedecoration28">3D Embellishment Art Lamp</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="homedecoration29" name="category" />
+                        <label for="homedecoration29">Handcraft Chinese style</label>
+                    </div>
+                    
+                    <div class="option">
+                        <input type="radio" class="radio" id="homedecoration30" name="category" />
+                        <label for="homedecoration30">Key Holder</label>
+                    </div>
+    
+                </div>
+    
+                <div class="selected">Looking for something ? ......</div>
+                
+                <div class="search-box">
+                    <input type="text" placeholder="Search" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- category : smartphones -->
+    <section class="smartphone-section">
+        <div class="fluid-container">
+
+            <div class="text-center">
+                <h2 class="p-3 title">Smartphones</h2>
+            </div>
+
+            <!-- row1 -->
+            <div class="d-flex flex-row rounded">
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded smartphone-card">
+                            <h4 class="card-title">iPhone 9</h4>
+                            <a href="smartphone1.html"><img src="https://dummyjson.com/image/i/products/1/thumbnail.jpg" class="size" ></a>
+                            <p class="price">$549</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded smartphone-card">
+                            <h4 class="card-title">iPhone X</h4>
+                            <a href="smartphone2.html"><img src="https://dummyjson.com/image/i/products/2/thumbnail.jpg" class="size" ></a>
+                            <p class="price">$899</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded smartphone-card">
+                            <h4 class="card-title">Samsung Universe</h4>
+                            <a href="smartphone3.html"><img src="https://dummyjson.com/image/i/products/3/thumbnail.jpg" class="size" ></a>
+                            <p class="price">$1249</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                
+            <!-- row2 -->
+            <div class="d-flex flex-row">
+            
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded smartphone-card">
+                            <h4 class="card-title">OPPO F19</h4>
+                            <a href="smartphone4.html"><img src="https://dummyjson.com/image/i/products/4/thumbnail.jpg" class="size" ></a>
+                            <p class="price">$280</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded smartphone-card">
+                            <h4 class="card-title">Huawei P30</h4>
+                            <a href="smartphone5.html"><img src="https://dummyjson.com/image/i/products/5/thumbnail.jpg" class="size" ></a>
+                            <p class="price">$499</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- catergory: laptops -->
+    <section class="laptop-section">
+        <div class="fluid-container">
+    
+            <div class="text-center">
+                <h2 class="p-3 title">Laptops</h2>
+            </div>
+    
+            <!-- row1 -->
+            <div class="d-flex flex-row rounded">
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded laptop-card">
+                            <h4 class="card-title">MacBook Pro</h4>
+                            <a href="laptop6.html"><img src="https://dummyjson.com/image/i/products/6/thumbnail.jpg" class="size"></a>
+                            <p class="price">$1749</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded laptop-card">
+                            <h4 class="card-title">Samsung Galaxy Book</h4>
+                            <a href="laptop7.html"><img src="https://dummyjson.com/image/i/products/7/thumbnail.jpg" class="size"></a>
+                            <p class="price">$1499</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded laptop-card">
+                            <h4 class="card-title">Microsoft Surface Laptop 4</h4>
+                            <a href="laptop8.html"><img src="https://dummyjson.com/image/i/products/8/thumbnail.jpg" class="size"></a>
+                            <p class="price">$1499</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                
+            <!-- row2 -->
+            <div class="d-flex flex-row">
+            
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded laptop-card">
+                            <h4 class="card-title">Infinix INBOOK</h4>
+                            <a href="laptop9.html"><img src="https://dummyjson.com/image/i/products/9/thumbnail.jpg" class="size"></a>
+                            <p class="price">$1099</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded laptop-card">
+                            <h4 class="card-title">HP Pavilion 15-DK1056WM</h4>
+                            <a href="laptop10.html"><img src="https://dummyjson.com/image/i/products/10/thumbnail.jpg" class="size"></a>
+                            <p class="price">$499</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- category : fragrances -->
+    <section class="fragrance-section">
+        <div class="fluid-container">
+    
+            <div class="text-center">
+                <h2 class="p-3 title">Fragrances</h2>
+            </div>
+    
+            <!-- row1 -->
+            <div class="d-flex flex-row rounded">
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded fragrance-card">
+                            <h4 class="card-title">Perfume Oil</h4>
+                            <a href="fragrance11.html"><img src="https://dummyjson.com/image/i/products/11/thumbnail.jpg" class="size" ></a>
+                            <p class="price">$13</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded fragrance-card">
+                            <h4 class="card-title">Brown Perfume</h4>
+                            <a href="fragrance12.html"><img src="https://dummyjson.com/image/i/products/12/thumbnail.jpg" class="size"></a>
+                            <p class="price">$40</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded fragrance-card">
+                            <h4 class="card-title">Fog Scent Xpressio Perfume</h4>
+                            <a href="fragrance13.html"><img src="https://dummyjson.com/image/i/products/13/thumbnail.jpg" class="size"></a>
+                            <p class="price">$13</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                
+            <!-- row2 -->
+            <div class="d-flex flex-row">
+            
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded fragrance-card">
+                            <h4 class="card-title">Non-Alcoholic Concentrated Perfume Oil</h4>
+                            <a href="fragrance14.html"><img src="https://dummyjson.com/image/i/products/14/thumbnail.jpg" class="size"></a>
+                            <p class="price">$120</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded fragrance-card">
+                            <h4 class="card-title">Eau De Perfume Spray</h4>
+                            <a href="15.html"><img src="https://dummyjson.com/image/i/products/15/thumbnail.jpg" class="size"></a>
+                            <p class="price">$30</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- category : skincare -->
+    <section class="skincare-section">
+        <div class="fluid-container">
+    
+            <div class="text-center">
+                <h2 class="p-3 title">Skincare</h2>
+            </div>
+    
+            <!-- row1 -->
+            <div class="d-flex flex-row rounded">
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded skincare-card">
+                            <h4 class="card-title">Hyaluronic Acid Serum</h4>
+                            <a href="skincare16.html"><img src="https://dummyjson.com/image/i/products/16/thumbnail.jpg" class="size" ></a>
+                            <p class="price">$19</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded skincare-card">
+                            <h4 class="card-title">Tree Oil 30ml</h4>
+                            <a href="skincare17.html"><img src="https://dummyjson.com/image/i/products/17/thumbnail.jpg" class="size"></a>
+                            <p class="price">$12</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded skincare-card">
+                            <h4 class="card-title">Oil Free Moisturizer 100ml</h4>
+                            <a href="skincare18.html"><img src="https://dummyjson.com/image/i/products/18/thumbnail.jpg" class="size"></a>
+                            <p class="price">$40</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                
+            <!-- row2 -->
+            <div class="d-flex flex-row">
+            
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded skincare-card">
+                            <h4 class="card-title">Skin Beauty Serum</h4>
+                            <a href="skincare19.html"><img src="https://dummyjson.com/image/i/products/19/thumbnail.jpg" class="size"></a>
+                            <p class="price">$46</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded skincare-card">
+                            <h4 class="card-title">Freckle Treatment Cream- 15gm</h4>
+                            <a href="skincare20.html"><img src="https://dummyjson.com/image/i/products/20/thumbnail.jpg" class="size"></a>
+                            <p class="price">$70</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- category : groceries -->
+    <section class="groceries-section">
+        <div class="fluid-container">
+
+            <div class="text-center">
+                <h2 class="p-3 title">Groceries</h2>
+            </div>
+
+            <!-- row1 -->
+            <div class="d-flex flex-row rounded">
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded groceries-card">
+                            <h4 class="card-title">Daal Masoor 500 grams</h4>
+                            <a href="groceries21.html"><img src="https://dummyjson.com/image/i/products/21/thumbnail.jpg" class="size" ></a>
+                            <p class="price">$20</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded groceries-card">
+                            <h4 class="card-title">Elbow Macaroni</h4>
+                            <a href="groceries22.html"><img src="https://dummyjson.com/image/i/products/22/thumbnail.jpg" class="size"></a>
+                            <p class="price">$14</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded groceries-card">
+                            <h4 class="card-title">Orange Essence Food Flavour</h4>
+                            <a href="groceries23.html"><img src="https://dummyjson.com/image/i/products/23/thumbnail.jpg" class="size"></a>
+                            <p class="price">$14</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                
+            <!-- row2 -->
+            <div class="d-flex flex-row">
+            
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded groceries-card">
+                            <h4 class="card-title">Cereals Muesli Fruit Nuts</h4>
+                            <a href="groceries24.html"><img src="https://dummyjson.com/image/i/products/24/thumbnail.jpg" class="size"></a>
+                            <p class="price">$46</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded groceries-card">
+                            <h4 class="card-title">Gulab Powder 50 Gram</h4>
+                            <a href="groceries25.html"><img src="https://dummyjson.com/image/i/products/25/thumbnail.jpg" class="size"></a>
+                            <p class="price">$70</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- category : home decoration -->
+    <section class="home-decoration-section">
+        <div class="fluid-container">
+
+            <div class="text-center">
+                <h2 class="p-3 title">Home Decoration</h2>
+            </div>
+
+            <!-- row1 -->
+            <div class="d-flex flex-row rounded">
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded home-decoration-card">
+                            <h4 class="card-title">Plant Hanger For Home</h4>
+                            <a href="homedecoration26.html"><img src="https://dummyjson.com/image/i/products/26/thumbnail.jpg" class="size" ></a>
+                            <p class="price">$41</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded home-decoration-card">
+                            <h4 class="card-title">Flying Wooden Bird</h4>
+                            <a href="homedecoration27.html"><img src="https://dummyjson.com/image/i/products/27/thumbnail.jpg" class="size"></a>
+                            <p class="price">$51</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded home-decoration-card">
+                            <h4 class="card-title">3D Embellishment Art Lamp</h4>
+                            <a href="homedecoration28.html"><img src="https://dummyjson.com/image/i/products/28/thumbnail.jpg" class="size"></a>
+                            <p class="price">$20</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+                
+            <!-- row2 -->
+            <div class="d-flex flex-row">
+            
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded home-decoration-card">
+                            <h4 class="card-title">Handcraft Chinese style</h4>
+                            <a href="homedecoration29.html"><img src="https://dummyjson.com/image/i/products/29/thumbnail.jpg" class="size"></a>
+                            <p class="price">$60</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-8 col-lg-4 col-xl-3 p-4">
+                    <div class="card border-0">
+                        <div class="card-body text-center rounded home-decoration-card">
+                            <h4 class="card-title">Key Holder</h4>
+                            <a href="homedecoration30.html"><img src="https://dummyjson.com/image/i/products/30/thumbnail.jpg" class="size"></a>
+                            <p class="price">$30</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+</body>
+<script src="main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>

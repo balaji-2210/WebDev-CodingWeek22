@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.iitg-color{
+    color: rgb(186, 255, 81)
+}
+
+.nav-color{
+    background-color: rgb(10, 158, 99);
+}
+
+.search-color{
+    background-color: rgb(191, 255, 187);
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+}
+.product{
+    color: black;
+    font-weight: bold;
+}
+.price{
+    color: white;
+}
+.size{
+    width: 240px;
+    height: 240px;
+}
+
+.smartphone-section{
+    background-color: rgb(15, 131, 129);
+}
+.smartphone-card{
+    background-color: rgb(108, 191, 243);
+}
+
+.laptop-section{
+    background-color: rgb(52, 39, 39);
+}
+.laptop-card{
+    background-color: rgb(126, 126, 128);
+}
+
+.fragrance-section{
+    background-color: rgb(240, 176, 111);
+}
+.fragrance-card{
+    background-color: rgb(240, 207, 136);
+}
+
+.skincare-section{
+    background-color: rgb(199, 122, 165);
+}
+.skincare-card{
+    background-color: rgb(197, 81, 135);
+}
+
+.groceries-section{
+    background-color: rgb(152, 225, 115);
+}
+.groceries-card{
+    background-color: rgb(69, 200, 43);
+}
+
+.home-decoration-section{
+    background-color: rgb(238, 103, 19);
+}
+.home-decoration-card{
+    background-color: rgb(235, 169, 71);
+}
+
+
+
+
+
+
